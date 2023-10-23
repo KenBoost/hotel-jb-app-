@@ -1,10 +1,14 @@
 import './index.scss'
 import {Outlet} from 'react-router-dom'
+import Nav from '../../components/Nav'
 
 const Layout =() =>{
     return(
         <div className='App'>
-            <Outlet></Outlet>
+           <Nav />
+           <div className="page">
+           <Outlet></Outlet>
+      </div>
         </div>
     )
 }
