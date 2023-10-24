@@ -1,4 +1,5 @@
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.scss';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Layout from './pages/Layout';

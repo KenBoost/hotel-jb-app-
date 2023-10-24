@@ -1,0 +1,14 @@
+/* carousel.scss */
+.carousel-item img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover; /* Para asegurarte de que las imágenes se ajusten correctamente sin deformarlas */
+  }
+  
+  .carousel-caption {
+    background: rgba(0, 0, 0, 0); /* Fondo semitransparente para los títulos y descripciones */
+    color: white; /* Color del texto en los títulos y descripciones */
+    text-align: center; /* Centrar el texto en el carrusel */
+    padding: 10px; /* Espaciado interno */
+  }
+  
