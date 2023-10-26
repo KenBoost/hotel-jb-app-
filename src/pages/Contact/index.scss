@@ -1,0 +1,35 @@
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
+
+.contenedorcontacto{
+    width: 80%;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;  
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+    border: solid; 
+    
+    .cont1{
+        border: solid;
+        border-color: red;
+        width: 45%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h3{
+            font-family: $font-coolvetica;
+            font-size: 2.0rem;
+        }
+    }
+
+    .cont2{
+        border:solid;
+        width: 55%;
+        border-color: aquamarine;
+    }
+}

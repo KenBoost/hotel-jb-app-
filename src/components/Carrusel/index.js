@@ -7,7 +7,7 @@ const Carrusel = () => {
     <Carousel fade>
       <Carousel.Item>
         <img src={Carrusel10} alt="JavaScript" />
-        <Carousel.Caption>
+        <Carousel.Caption > 
           <h3>Deep in Nature</h3>
           <p>Take your mind off the city</p>
         </Carousel.Caption>
@@ -21,7 +21,7 @@ const Carrusel = () => {
       </Carousel.Item>
       <Carousel.Item>
         <img src={Carrusel30} alt="JavaScript" />
-        <Carousel.Caption>
+        <Carousel.Caption >
           <h3>Close to the best beaches in the country</h3>
           <p>Beaches popular for their scenic beauty and their blue color</p>
         </Carousel.Caption>

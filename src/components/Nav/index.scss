@@ -1,4 +1,8 @@
 /* Navbar.scss */
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
 
 .navbar {
     display: flex;
@@ -27,11 +31,12 @@
   .nav-links a {
     text-decoration: none;
     color: #fff; /* Color de los enlaces */
-    font-weight: bold;
+    font-family: $font-coolvetica;
+    font-size: 1.3rem;
   }
   
   /* Estiliza los enlaces cuando se pasa el ratón sobre ellos */
   .nav-links a:hover {
-    text-decoration: underline;
+    color: rgb(170, 198, 33);
   }
   

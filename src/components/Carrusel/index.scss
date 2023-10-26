@@ -1,4 +1,12 @@
 /* carousel.scss */
+// _fonts.scss
+
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
+
+
 .carousel-item img {
     width: 100%;
     max-height: 400px;
@@ -10,5 +18,14 @@
     color: white; /* Color del texto en los títulos y descripciones */
     text-align: center; /* Centrar el texto en el carrusel */
     padding: 10px; /* Espaciado interno */
+    
+    h3{
+      font-size: 2.2rem;
+      font-family: $font-coolvetica;
+    }
+    p{
+      font-size: 1.2rem;
+      font-family: $font-arial;   
+    }
   }
   
