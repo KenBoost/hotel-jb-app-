@@ -6,6 +6,7 @@ $font-arial: Arial, Helvetica, sans-serif;
 .contenedorcontacto{
     width: 80%;
     margin-top: 2%;
+    margin-bottom: 2%;
     margin-left: auto;
     margin-right: auto;  
     height: 90vh;
@@ -28,8 +29,9 @@ $font-arial: Arial, Helvetica, sans-serif;
     }
 
     .cont2{
-        border:solid;
+       
         width: 55%;
-        border-color: aquamarine;
+  
+        overflow: hidden;
     }
 }
