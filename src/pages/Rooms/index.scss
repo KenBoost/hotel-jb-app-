@@ -1,0 +1,41 @@
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
+
+.partearriba{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../../assets/images/habitaciones/habitaciones.jpg");
+    background-size: 100% 150%;
+    background-repeat: no repeat;
+    
+    h2{
+        font-family: $font-coolvetica;
+        color: white;
+        text-shadow: 2px 2px 4px grey;
+        font-size: 4.5rem;
+
+    }
+}
+
+.partemedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    .room1,.room2,.room3{
+        height: 100px;
+        width: 90%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        border-radius: 8px;
+        box-shadow: 1px 11px 29px 6px rgba(216, 210, 210, 0.75);
+        -webkit-box-shadow: 1px 11px 29px 6px rgba(225, 223, 223, 0.75);
+        -moz-box-shadow: 1px 11px 29px 6px rgba(218, 215, 215, 0.75);
+    }
+}
