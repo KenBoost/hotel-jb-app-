@@ -1,6 +1,7 @@
 import './index.scss'
 import {Outlet} from 'react-router-dom'
 import Nav from '../../components/Nav'
+import Footer from '../../components/Footer'
 
 const Layout =() =>{
     return(
@@ -8,6 +9,7 @@ const Layout =() =>{
            <Nav />
            <div className="page">
            <Outlet></Outlet>
+           <Footer/>
       </div>
         </div>
     )

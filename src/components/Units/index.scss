@@ -1,0 +1,46 @@
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
+.unitsection{
+
+
+    margin: 10px auto; /* 10px arriba y abajo, centrado horizontalmente */
+    padding: 70px 0;
+    border: solid;
+    background-image: url("../../assets/images/visuals/Visual1.jpg");
+    background-size: 100% 100%;
+    background-repeat: no repeat;
+
+    h2{
+        font-family: $font-coolvetica;
+        color: white;
+        text-shadow: 2px 2px 4px rgb(98, 98, 98);
+        font-size: 2.8rem;
+    }
+    p{
+        font-family: $font-arial;
+        font-size: 1.1rem;
+        max-width: 80%;
+        margin: 10px auto;
+        color: white;            
+    }
+
+    .unitcontainer{
+        width: 90%;
+        margin: 4% auto;
+        display: flex;
+        flex-wrap: wrap;
+    
+        .unit{
+            flex-grow: 1;
+            flex-basis: 200px;
+            width: 300px;
+            height: 300px;
+            background-color: whitesmoke;
+            margin: 20px;
+            text-align: left;
+        }
+    }
+
+}

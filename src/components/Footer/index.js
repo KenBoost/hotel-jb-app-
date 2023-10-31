@@ -11,13 +11,13 @@ const Footer = () => {
       </div>
       <div className="footer-content">
         <div className="footer-section">
-          <h3>Contacto</h3>
-          <p>Dirección: Calle Principal, Ciudad</p>
-          <p>Teléfono: (123) 456-7890</p>
+          <h3>Contact</h3>
+          <p>Location: Calle Principal, Ciudad</p>
+          <p>Phone: (123) 456-7890</p>
           <p>Email: info@tuempresa.com</p>
         </div>
         <div className="footer-section">
-          <h3>Enlaces Rápidos</h3>
+          <h3>Links</h3>
           <ul>
             <li><a href="/">Inicio</a></li>
             <li><a href="/servicios">Servicios</a></li>

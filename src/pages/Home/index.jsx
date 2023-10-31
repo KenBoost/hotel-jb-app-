@@ -1,5 +1,6 @@
 import React from 'react';
 import Carrusel from '../../components/Carrusel'
+import Units from '../../components/Units'
 import {Habitacion2} from "../../components/Importedimages";
 
 
@@ -18,17 +19,17 @@ function Home() {
           <br></br>
           <p>
             If you're seeking a unique experience on the Caribbean coast of
-            Costa Rica, our lodge in Puerto Viejo de Limón is your ideal
+            Costa Rica, our Bungalows in Puerto Viejo de Limón is your ideal
             destination. 
           </p>
           <p>
-           Situated amidst the lush rainforest, our modern retreat
+           Situated amidst the lush rainforest, our modern retreat units
             offers you the opportunity to be immersed in nature at its finest.
             Here, comfort and adventure seamlessly blend. 
           </p>
           <p>
            Discover the natural
-            beauty that envelops our lodge while enjoying modern facilities and
+            beauty that envelops our units while enjoying modern facilities and
             basking in the tranquility of the jungle. Immerse yourself in the
             serenity and wonder of nature in its purest form.
           </p>
@@ -37,7 +38,9 @@ function Home() {
            <img src={Habitacion2} loading='lazy'></img>
         </div>
       </div>
-      <div className="cuadro3"></div>
+      <div className="cuadro3">
+        <Units></Units>
+      </div>
     </div>
   );
 }
