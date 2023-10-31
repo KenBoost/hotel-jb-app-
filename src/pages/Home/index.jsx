@@ -34,7 +34,7 @@ function Home() {
           </p>
         </div>
         <div className="imagen">
-           <img src={Habitacion2}></img>
+           <img src={Habitacion2} loading='lazy'></img>
         </div>
       </div>
       <div className="cuadro3"></div>
