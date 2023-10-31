@@ -17,7 +17,7 @@ db = client['hotel-junglebreeze']
 
 #------------ENVIO DE CORREOS-------------------------------------------
 #-----------------------------------------------------------------------
-@app.route('/', methods=['POST'])
+@app.route('/mail', methods=['POST'])
 def contact_form():
     if request.method == 'POST':
         nombre = request.form.get('nombre')
@@ -25,19 +25,19 @@ def contact_form():
         mensaje = request.form.get('mensaje')
 
         # Configura el envío de correo electrónico
-        server = smtplib.SMTP('smtp.gmail.com', 587)
-        server.starttls()
-        server.login('kennethmiranda56@gmail.com', 'kennethmcr16')
+        #server = smtplib.SMTP('smtp.gmail.com', 587)
+        #server.starttls()
+        #server.login('kennethmiranda56@gmail.com', 'kennethmcr16')
 
-        subject = 'Nuevo mensaje de Jungle Breeze'
-        body = f'Nombre: {nombre}\nCorreo: {correo}\nMensaje: {mensaje}'
-        msg = f'Subject: {subject}\n\n{body}'
+        #subject = 'Nuevo mensaje de Jungle Breeze'
+        #body = f'Nombre: {nombre}\nCorreo: {correo}\nMensaje: {mensaje}'
+        #msg = f'Subject: {subject}\n\n{body}'
 
-        server.sendmail('tucorreogmail@gmail.com', 'tudirecciondestino@gmail.com', msg)
+        #server.sendmail('tucorreogmail@gmail.com', 'tudirecciondestino@gmail.com', msg)
 
-        server.quit()
+        #server.quit()
 
-        # Devuelve una respuesta JSON de éxito
+        #Devuelve una respuesta JSON de éxito
         response = {'message': 'El mensaje se envió con éxito'}
         return jsonify(response), 200
 

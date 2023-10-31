@@ -9,8 +9,8 @@ $font-arial: Arial, Helvetica, sans-serif;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    background-color: #333333f9; /* Color de fondo del Navbar */
-    color: #fff; /* Color del texto en el Navbar */
+    background-color: #fafafaf9; /* Color de fondo del Navbar */
+    color: #212121; /* Color del texto en el Navbar */
   }
   
   .logo img {
@@ -30,7 +30,7 @@ $font-arial: Arial, Helvetica, sans-serif;
   
   .nav-links a {
     text-decoration: none;
-    color: #fff; /* Color de los enlaces */
+    color: #252525; /* Color de los enlaces */
     font-family: $font-coolvetica;
     font-size: 1.3rem;
   }

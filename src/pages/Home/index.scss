@@ -1,7 +1,50 @@
+$font-helvetica-neue: 'Helvetica Neue', sans-serif;
+$font-la-belle-aurore: 'La Belle Aurore', sans-serif;
+$font-coolvetica: 'Coolvetica', sans-serif;
+$font-arial: Arial, Helvetica, sans-serif;  
+
 .contenedorprincipal{
-
-
     .cuadro2{
-        height: 500px;
+        height: 550px;
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        
+        .texto{
+            width: 55%;
+            
+
+            h2{
+                font-family: $font-coolvetica;
+                text-shadow: 2px 2px 4px rgb(193, 193, 193);
+                font-size: 2.5rem;
+            }
+
+            p{
+                font-family: $font-arial;
+                font-size: 1.1rem;
+                max-width: 80%;
+                margin: auto;
+                margin-top: 8px;
+            }
+
+        }
+        .imagen {
+            max-width: 45%; /* Establece el ancho máximo para el div de la imagen */
+            height: 100%; /* Establece la altura máxima para el div de la imagen */
+            overflow: hidden; /* Oculta cualquier contenido que se desborde del div de la imagen */
+            border-radius: 10px;
+
+        }
+          
+          .imagen img {
+            width: 100%; /* La imagen ocupará todo el ancho del div de la imagen */
+            height: auto;
+           }
     }
 }
