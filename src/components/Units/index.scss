@@ -1,7 +1,9 @@
 $font-helvetica-neue: 'Helvetica Neue', sans-serif;
 $font-la-belle-aurore: 'La Belle Aurore', sans-serif;
 $font-coolvetica: 'Coolvetica', sans-serif;
-$font-arial: Arial, Helvetica, sans-serif;  
+$font-arial: Arial, Helvetica, sans-serif; 
+$font-bodoni: 'Bodoni Moda', serif;
+
 .unitsection{
 
 
@@ -18,7 +20,7 @@ $font-arial: Arial, Helvetica, sans-serif;
         text-shadow: 2px 2px 4px rgb(98, 98, 98);
         font-size: 2.8rem;
     }
-    p{
+    .textounidades{
         font-family: $font-arial;
         font-size: 1.1rem;
         max-width: 80%;
@@ -27,7 +29,7 @@ $font-arial: Arial, Helvetica, sans-serif;
     }
 
     .unitcontainer{
-        width: 90%;
+        width: 95%;
         margin: 4% auto;
         display: flex;
         flex-wrap: wrap;
@@ -36,10 +38,56 @@ $font-arial: Arial, Helvetica, sans-serif;
             flex-grow: 1;
             flex-basis: 200px;
             width: 300px;
-            height: 300px;
+            height: auto;
             background-color: whitesmoke;
             margin: 20px;
             text-align: left;
+            border-radius: 5px;
+
+            .contenido{
+                margin: 5% auto;
+                width: 85%;
+
+                h3{
+                    font-family: $font-bodoni;
+                    font-size: 2.2rem;
+                    color: rgb(72, 72, 72);
+                }
+
+                p{
+                    font-family: Verdana, Geneva, Tahoma, sans-serif;
+                    color: grey;
+                    text-align: justify;
+                    font-size: 15px;
+                }
+
+                ul{
+                    list-style-type: none;
+                    margin-top: 20%;
+                    margin-bottom: 20%;
+                    padding: 0;
+                    
+                    li{
+                        margin: 0;
+                    }
+                    p{
+                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                        color: rgb(22, 22, 22);
+                    }
+                }
+                h4{
+                   font-size: 1.0rem; 
+                   text-transform: uppercase;
+                }
+                button{
+                    background-color: black;
+                    color: white;
+                    border: none;
+                    padding: 15px;
+                    font-family: $font-coolvetica;
+                    border-radius: 5px;
+                }
+            }
         }
     }
 
