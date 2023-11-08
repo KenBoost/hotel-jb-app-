@@ -24,6 +24,9 @@ const Nav = () => {
         <Link to="/contact"> 
         <li><a href="#">Contact</a></li>
         </Link>
+        <Link to="/gallery"> 
+        <li><a href="#">Gallery</a></li>
+        </Link>
       </ul>
     </nav>
   );

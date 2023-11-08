@@ -6,6 +6,7 @@ import Layout from './pages/Layout';
 import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Rooms from './pages/Rooms';
+import Gallery from './pages/Gallery'
 
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home />} />
           <Route path="rooms" element={<Rooms />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="gallery" element={<Gallery/>} />
         </Route>
       </Routes>
      </Router>
