@@ -3,6 +3,7 @@ $font-la-belle-aurore: 'La Belle Aurore', sans-serif;
 $font-coolvetica: 'Coolvetica', sans-serif;
 $font-arial: Arial, Helvetica, sans-serif; 
 $font-bodoni: 'Bodoni Moda', serif;
+$font-nimbus : 'Nimbus Sans', sans-serif;
 
 .unitsection{
 
@@ -61,18 +62,19 @@ $font-bodoni: 'Bodoni Moda', serif;
                     font-size: 15px;
                 }
 
-                ul{
+                .listageneral{
                     list-style-type: none;
-                    margin-top: 20%;
-                    margin-bottom: 20%;
+                    margin-top: 15%;
+                    margin-bottom: 15%;
                     padding: 0;
                     
                     li{
                         margin: 0;
                     }
                     p{
-                        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-                        color: rgb(22, 22, 22);
+                        font-family: $font-nimbus;
+                        color: rgb(93, 93, 93);
+                        font-weight: 400;
                     }
                 }
                 h4{
@@ -86,6 +88,29 @@ $font-bodoni: 'Bodoni Moda', serif;
                     padding: 15px;
                     font-family: $font-coolvetica;
                     border-radius: 5px;
+                }
+                .amenities{
+
+                    ul{
+                         list-style-type: none;
+                         margin-top: 10%;
+                         margin-bottom: 10%;
+               
+                        
+                        li{
+                            margin: 0;
+                            font-family: $font-nimbus;
+                            color: rgb(93, 93, 93);
+                            font-size: 16px;
+                            letter-spacing: 1px;
+
+                            span{
+                                margin-right: 10px;
+                            }
+                        }
+
+                         
+                    }
                 }
             }
         }
